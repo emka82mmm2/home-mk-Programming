@@ -78,6 +78,9 @@ int main()
 					printf( "/nu = ", u );
 					printf( "e = ", e );
 					printf("/n");
+
+					*u = 10;
+					printf("\n*u", *u );
 			}
 				}
   
@@ -85,6 +88,8 @@ int main()
 		
 
 }
+
+
 
 
 
