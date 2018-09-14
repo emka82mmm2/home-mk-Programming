@@ -2,6 +2,51 @@
 #include <stdlib.h>
 #include <math.h>
 
+		void ReturnValFromParam(  int newFirstParametr, int newSecondParametr )
+		{
+			 int x;
+	       		 int ad = 20;
+			 int bd = 30;
+
+			 x = ad + bd;
+
+
+
+
+
+
+
+			 char str[100];
+			 int i;
+
+
+			 printf("Function gets parameter from user");
+
+			 scanf( %d,%d, str, &i );
+			 puts( str );
+			 
+			 printf("You Entered :", %d,%d, str, i );
+
+
+
+
+
+
+
+			 ReturnValFromParam( ad,bd );
+
+ 			 printf( "Argument x return value: " , x ); 
+
+			 printf( "Function return value of x", ReturnValFromParam( x ) );
+
+			 printf( "Function return values",  ReturnValFromParam(ad,bd) );
+
+			 ReturnValFromParam(10,20);
+
+
+		}
+
+
 int main( int argc , char argv[])
 {
   int y = 110;
@@ -65,10 +110,10 @@ int main( int argc , char argv[])
 							printf( "qw + mkv = \t" , mkvv[l][p] );
 		
 								
-		double e;
-		double *u;
+		  double e;
+		  double *u;
 
-		for( *u = 1; *u < 10; *u++ ) {
+		  for( *u = 1; *u < 10; *u++ ) {
 			for( e = 1; e < 10; e++ ) {
 
 					e = 1 ;
@@ -83,12 +128,13 @@ int main( int argc , char argv[])
 					*u = 10;
 					printf("\n*u", *u );
 			}
-				}
+				}   
   
-		
-		
 
+		 return 1;
 }
+
+
 
 
 
