@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
-int main()
+int main( int argc , char argv[])
 {
   int y = 110;
   int z = 110;
@@ -64,13 +65,13 @@ int main()
 							printf( "qw + mkv = \t" , mkvv[l][p] );
 		
 								
-		int e;
-		int *u;
+		double e;
+		double *u;
 
-		for( *u = 0; *u < 10; *u++ ) {
-			for( e = 0; e < 30; e++ ) {
+		for( *u = 1; *u < 10; *u++ ) {
+			for( e = 1; e < 10; e++ ) {
 
-					e = 10 ;
+					e = 1 ;
 					u = &e;
 					
 					
@@ -88,7 +89,6 @@ int main()
 		
 
 }
-
 
 
 
