@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
@@ -61,13 +62,33 @@ int main()
 							p = f+j;
 
 							printf( "qw + mkv = \t" , mkvv[l][p] );
+		
+								
+		int e;
+		int *u;
 
+		for( *u = 0; *u < 10; *u++ ) {
+			for( e = 0; e < 30; e++ ) {
+
+					e = 10 ;
+					u = &e;
 					
+					
+
+					printf( "/nu = ", u );
+					printf( "e = ", e );
+					printf("/n");
+			}
+				}
   
 		
 		
 
 }
+
+
+
+
 
 
 
